@@ -5,11 +5,46 @@
 		<title>ドットインストール</title>
 	</head>
 	<body>
-		
-		<input type="text" placeholder="taguchi">
-		<input type="text" value="hello">
-		<input type="password">
-		<textarea></textarea>
-		<textarea>Hello</textarea>
+
+		<label for="color">好きな色</label>
+		<select id="color" size="4" multiple>
+			<option>色1</option>
+			<option>色2</option>
+			<option selected>色3</option>
+			<option>色4</option>
+			<option>色5</option>
+			<option>色6</option>
+		</select>
+
+		<br><hr><br>
+
+		<fieldset>
+			<legend>お使いのスマホ(複数選択可)</legend>
+			<label><input type="checkbox">iPhone</label>
+			<label><input type="checkbox" checked>Android</label>
+			<label><input type="checkbox">その他</label>
+		</fieldset>
+		<fieldset>
+			<legend>一番すきなスマホ</legend>
+			<label><input type="radio" name="phone">iPhone</label>
+			<label><input type="radio" name="phone" checked>Android</label>
+			<label><input type="radio" name="phone">その他</label>
+		</fieldset>
+
+		<p><input type="color"></p>
+		<p><input type="date"></p>
+		<p><input type="number"></p>
+		<p><input type="range"></p>
+
+		<input type="button" value="OK">
+		<button disabled>OK</button>
+
+		<hr>
+		他のプログラム(phpなど)へ送信する際の例
+		<form action="process.php" method="post">
+			<label>担当者名 <input type="text" name="username"></label>
+			<label>タスク <input type="text" name="task"></label>
+			<button>追加</button>
+		</form>
 	</body>
-</html>
+	</html>

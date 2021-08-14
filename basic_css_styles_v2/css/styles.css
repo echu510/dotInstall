@@ -1,0 +1,8 @@
+body {
+	color:skyblue;
+	border: 1px solid pink;
+}
+h1{
+	/* borderプロパティは本来継承されないが、inheritで明示的に継承する */
+	border:inherit;
+}

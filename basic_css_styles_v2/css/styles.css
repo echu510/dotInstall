@@ -1,8 +1,16 @@
-body {
-	color:skyblue;
-	border: 1px solid pink;
-}
 h1{
-	/* borderプロパティは本来継承されないが、inheritで明示的に継承する */
-	border:inherit;
+	color:red;
+	font-size:48px;
+	text-align: center;
+	font-weight: normal;
+	text-decoration: line-through;
+}
+p{
+	font-weight:bold;
+	text-decoration: underline;
+
+}
+
+a{
+	text-decoration-line: none;
 }

@@ -1,16 +1,25 @@
 @charset "utf-8";
-h1{
-	font-family: Verdana,'Arial Black',メイリオ,sans-serif;
+.box1{
+	background-color: orange;
+	width:200px;
+	height: 200px;
 }
-ul{
-	list-style-type:circle;
-	list-style-position: inside;
-	list-style-image: url(../img/icon.png);
-	list-style-type: circle inside url(../img/icon.png);
+.box2{
+	background-color: skyblue;
+	width:50%;
+	height:50%;
+	/* overflow: hidden;
+	overflow: scroll; */
+	/* border-width: 2px;
+	border-style: solid;
+	border-color: blue; */
+	/* border: 2px dashed blue; */
+	/* border-top: 2px solid blue;
+	border-bottom: 2px solid blue; */
+	border: 2px solid blue;
+	/* border-bottom: none; */
+	border-radius: 10px;
 }
-
-ol{
-	list-style-type: lower-alpha;
-	list-style: inside;
-	/* list-style-type: none; */
+.box3{
+	background-color: tomato;
 }

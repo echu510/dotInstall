@@ -3,23 +3,24 @@
 	background-color: orange;
 	width:200px;
 	height: 200px;
+	margin-bottom: 20px;
+	margin: 0 0 20px;
+
 }
 .box2{
 	background-color: skyblue;
 	width:50%;
 	height:50%;
-	/* overflow: hidden;
-	overflow: scroll; */
-	/* border-width: 2px;
-	border-style: solid;
-	border-color: blue; */
-	/* border: 2px dashed blue; */
-	/* border-top: 2px solid blue;
-	border-bottom: 2px solid blue; */
 	border: 2px solid blue;
-	/* border-bottom: none; */
-	border-radius: 10px;
+	padding-top: 20px;
+	padding-left: 40px;
+
 }
 .box3{
 	background-color: tomato;
+	width:100px;
+	height:40px;
+	/* display:inline; */
+	display:inline-block;
+	/* display:none; */
 }

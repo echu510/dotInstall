@@ -1,9 +1,9 @@
-@charset "utf-8";
-header{
-	height: 80px;
-	background-color: pink;
-	/* background-image: url(../img/header.png);
-	background-size: cover;
-	background-position: center; */
-	background: center/cover pink  url(../img/header.png);
+img{
+	float:right;
+}
+
+h2{
+	clear: right;
+	/* clear: left;
+	clear: both; */
 }
